@@ -1,0 +1,176 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  font-family: Poppins;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+}
+.top-title {
+  text-align: center;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 355px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.title1 {
+  font-weight: 400;
+  font-size: 23px;
+}
+.top-title p {
+  opacity: 0.6;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.title2 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.supervisor {
+  margin: 0 auto;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  padding: 40px 30px 20px 20px;
+  line-height: 20px;
+  box-shadow: 2px 5px 10px 0px hsl(229, 69%, 87%);
+  border-radius: 5px;
+  height: 140px;
+}
+.supervisor h3 {
+  margin-top: -20px;
+}
+.supervisor p {
+  width: 270px;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+.supervisor img {
+  float: right;
+}
+.builder {
+  margin: 0 auto;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  padding: 40px 30px 20px 20px;
+  line-height: 20px;
+  box-shadow: 2px 5px 10px 0px hsl(229, 69%, 87%);
+  border-radius: 5px;
+  height: 140px;
+  margin: 20px 0px 0px 0px;
+}
+.builder h3 {
+  margin-top: -20px;
+}
+.builder p {
+  width: 270px;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+
+.builder img {
+  float: right;
+}
+.karma {
+  margin: 0 auto;
+  border-top: 3px solid hsl(34, 97%, 64%);
+  padding: 40px 30px 20px 20px;
+  line-height: 20px;
+  box-shadow: 2px 5px 10px 0px hsl(229, 69%, 87%);
+  border-radius: 5px;
+  height: 140px;
+  margin: 20px 0px 0px 0px;
+}
+.karma h3 {
+  margin-top: -20px;
+}
+.karma p {
+  width: 270px;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+
+.karma img {
+  float: right;
+}
+.calculator {
+  margin: 0 auto;
+  border-top: 3px solid hsl(212, 86%, 64%);
+  padding: 40px 30px 20px 20px;
+  line-height: 20px;
+  box-shadow: 2px 5px 10px 0px hsl(229, 69%, 87%);
+  border-radius: 5px;
+  height: 140px;
+  margin: 20px 0px 0px 0px;
+}
+.calculator p {
+  width: 270px;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-top: -10px;
+  padding-bottom: 20px;
+}
+.calculator h3 {
+  margin-top: -20px;
+}
+.calculator img {
+  float: right;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .box {
+    margin-top: 150px;
+    height: 150px;
+  }
+  .supervisor {
+    height: 150px;
+    width: 260px;
+  }
+  .builder {
+    height: 150px;
+    width: 260px;
+    margin: 20px 0px 0px 0px;
+  }
+  .karma {
+    height: 150px;
+    width: 260px;
+    margin: 20px 0px 0px 0px;
+  }
+  .calculator {
+    height: 150px;
+    width: 260px;
+  }
+  .top-title {
+    text-align: center;
+    width: 500px;
+  }
+  .title1 {
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .top-title p {
+    width: 500px;
+  }
+  .title2 {
+    font-size: 30px;
+  }
+}
